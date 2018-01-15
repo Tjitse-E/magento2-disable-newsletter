@@ -1,10 +1,10 @@
 <?php
 
-namespace Vendic\DisableNewsletterMails\Newsletter\Model;
+namespace Vendic\DisableNewsletterMails\Plugin;
 
 use Magento\Newsletter\Model\Subscriber as MageSubscriber;
 
-class Subscriber
+class NewsletterSubscribe
 {
     /**
      * @param MageSubscriber $oSubject
